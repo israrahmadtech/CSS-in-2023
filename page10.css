@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+.div1{
+    border: 10px solid green;
+}
+.div2{
+    width: 25%;
+    background-color: lightgoldenrodyellow;
+    float: left;
+    padding: 10px;
+}
+.div3{
+    width: 25%;
+    background-color: lightsalmon;
+    float: left;
+    padding: 10px;
+}
+.div6{
+    float: left;
+    width: 25%;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+.div7{
+    float: left;
+    width: 25%;
+    padding: 10px;
+    background-color: lightcyan;
+}
+.div1::after{
+    content: "";
+    display: block;
+    clear: both;
+}

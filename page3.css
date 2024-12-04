@@ -1,0 +1,37 @@
+body{
+    padding: 0px 70px;
+}
+nav {
+    background-color: rgb(180, 178, 178);
+    /* margin-left: 70px ;
+    margin-right: 70px ; */
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+nav ul{
+    
+    padding-left: 0%;
+    text-align: center;
+    
+}
+nav li{
+    border-bottom: 1px solid black;
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+section{
+    margin-top: 70px;
+    
+}
+h1{
+    border-bottom: 1px solid black;
+}

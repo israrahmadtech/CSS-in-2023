@@ -1,0 +1,44 @@
+/* link, visited, hover, unvisited, active  */
+/* make it in order = LVHA */
+a:link{
+    color: rgb(0, 255, 8);
+}
+a:visited{
+    color: rgb(255, 0, 0);
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: black;
+}
+p:link{
+    color: orange;
+}
+p:hover{
+    color: green;
+} 
+p:active{
+    background-color: rgb(170, 167, 167);
+}
+
+/* form */
+input:focus{
+    padding: 5px;
+    ;
+}
+input:link{
+    color: rgb(17, 17, 17);
+}
+input:visited{
+    color: blue;
+}
+input:hover{
+    color: greenyellow;
+}
+input:active{
+    color: blue;
+}
+input:required{
+    color: red;
+}

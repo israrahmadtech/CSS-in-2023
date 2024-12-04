@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+.parrent{
+border: 2px solid rgb(253, 146, 146);
+margin: 0px 200px 0px 200px ;
+background-color: rgb(253, 204, 113);
+}
+.div1{
+    padding: 10px;
+    width: 25%;
+    float: left;
+}
+.div2{
+    padding: 10px;
+    width: 25%;
+    float: left;
+}
+.div3{
+padding: 10px;
+width: 25%;
+float: left;
+}
+.div4{
+padding: 10px;
+width: 25%;
+float: left;
+}
+.parrent::after{
+    content: "";
+    display: block;
+    clear: both;
+}

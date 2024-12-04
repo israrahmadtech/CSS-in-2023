@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div1{
+    width: 600px;
+    height: 200px;
+    position: relative;
+    border: 6px solid green;
+    margin: 50px 0px 50px 0px;
+}
+.div1 h1{
+border: 3px solid red;
+background-color: rgb(249, 249, 194);
+/* position: static; (default) */
+/* position: relative; for moving container  */
+/* top: 150px; */
+/* left: 20px; */
+/* z-index: -1; */
+   position: absolute; /* content out from document float  */
+/* top: 0px;
+right: 0px;  */
+/* left: 70px;
+bottom: 30px;
+transform: translate(55%, -50%); x-axis, y-axis */
+}
+.div1 h3{
+border: 2px solid black;
+background-color: #edb6b6;
+ /* position: fixed; /* not disolaced by scrolling */
+/* top: 10px;
+right: 20px; */
+position: sticky; /* stiple i its parrent container */
+top: 0px;
+left: 0px;
+}
+.div1 p{
+    border: 2px solid purple;
+    background-color: rgb(211, 211, 211);
+    
+}

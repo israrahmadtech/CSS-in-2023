@@ -1,0 +1,43 @@
+header{
+    background-color: yellow;
+}
+h2{
+    color: red;
+}
+h1#h1{
+    color: blue;
+}
+header p{
+    color: gray;
+}
+h1.h2{
+    color: green;
+}
+li a{
+    color: rgb(77, 8, 252);
+}
+section.s1 h2{
+    color: chartreuse;
+}
+section.s1 p{
+    color: aqua;
+}
+main{
+    background-color: gray;
+}
+section.s2 > h1{
+    background-color: yellow;
+    color: rgb(255, 52, 7);
+}
+h4+p{
+    color: orange;
+}
+h4 +p{
+    color: blue;
+}
+section.sec3 h4+p{
+    color: blueviolet;
+}
+section.sec3{
+    background-color: burlywood;
+}

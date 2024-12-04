@@ -1,0 +1,81 @@
+/* :first-child */
+p:first-child{
+    color: red;
+}
+h1:first-child{
+    color: blue;
+}
+p:last-child{
+    color: blue;
+}
+h1:last-child{
+    color: blue;
+}
+/* :first-of-type */
+p:first-of-type{
+    color: green ;
+}
+h1:first-of-type{
+    color: rgb(207, 253, 5) ;
+}
+/* :last-of-type */
+h1:last-of-type{
+    color: red;
+}
+p:last-of-type{
+    color: orange;
+}
+/* :nth-child() */
+:nth-child(2){
+    color: aquamarine;
+}
+:nth-child(2n){
+    color: gray;
+}
+:nth-child(2*3){
+    color: brown;
+}
+:nth-child(2n+1){
+    color: red;
+}
+:nth-of-type(2){
+    color: aqua;
+}
+:nth-of-type(2n){
+    color: yellow;
+}
+/* :not() */
+body :not(p){
+    color: salmon;
+}
+div:empty{
+    background-color: red;
+    border: 2px solid rgb(7, 7, 7);
+    width: 300px;
+    height: 100px;
+}
+/* :root or html  */
+:root{
+background-color: gray;
+}
+p::first-letter{    
+    color: rgb(51, 44, 149);
+    font-size: 30px;
+}
+/* color after selection  */
+p::selection{
+    background-color: red;
+    color: white;
+}
+.before::before{
+    content: 'hello ';
+    color: black;
+    background-color: yellow;
+}
+.before::after{
+    content: 'hello ';
+    color: black;
+    background-color: yellow;
+}
+
+

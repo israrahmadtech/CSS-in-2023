@@ -1,0 +1,21 @@
+h1{
+    font-size: 30px;
+    text-decoration: underline solid black;
+    color: green;
+}
+
+h2{
+    text-decoration: overline wavy red;
+}
+h3{
+    text-decoration: line-through solid rgb(255, 0, 0);
+}
+h4{
+    text-decoration:underline double green;
+}
+p{
+    font-size: 21px;
+    line-height: 20px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
